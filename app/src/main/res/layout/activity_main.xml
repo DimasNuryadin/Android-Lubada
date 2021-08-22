@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/hijau"
+            android:text="Luas Bangun Datar"
+            android:textStyle="bold"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/btnPersegi"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/persegi"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+
+        <ImageButton
+            android:onClick="btnPersegiPanjang"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/persegipanjang"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+
+        <ImageButton
+            android:onClick="btnSegitiga"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/segitiga"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+
+        <ImageButton
+            android:onClick="btnJajarGenjang"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jajargenjang"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+
+        <ImageButton
+            android:onClick="btnBelahKetupat"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/belahketupat"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+
+        <ImageButton
+            android:onClick="btnLayang2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/layang2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+
+        <ImageButton
+            android:onClick="btnTrapesium"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/trapesium"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+
+        <ImageButton
+            android:onClick="btnLingkaran"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lingkaran"
+            android:layout_marginBottom="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySegitiga">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/hijau"
+            android:text="Segitiga"
+            android:textStyle="bold"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/segitigaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/hijau"
+            android:layout_marginTop="34dp"
+            android:text="Alas ( a )"
+            android:textSize="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edAlas"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/hijau"
+            android:textColorHint="@color/hijau"
+            android:hint="Masukan Alas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/hijau"
+            android:layout_marginTop="10dp"
+            android:text="Tinggi ( t )"
+            android:textSize="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edTinggi"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/hijau"
+            android:textColorHint="@color/hijau"
+            android:hint="Masukan Tinggi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnHitung"
+                android:background="@drawable/tombol_bulat"
+                android:layout_marginRight="30dp"
+                android:text="Hitung"
+                android:textColor="@color/white"
+                android:layout_width="90dp"
+                android:layout_height="36dp"/>
+            <Button
+                android:id="@+id/btnHapus"
+                android:background="@drawable/tombol_bulat"
+                android:text="HAPUS"
+                android:textColor="@color/white"
+                android:layout_width="90dp"
+                android:layout_height="36dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginBottom="9dp"
+            android:textSize="22dp"
+            android:textColor="@color/hijau"
+            android:text="Hasil :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/hasil"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text=""
+            android:textSize="20dp"
+            android:background="@drawable/border_text"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
